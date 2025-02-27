@@ -98,7 +98,7 @@ nav {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 490px;
+  width: 380px;
 }
 
 .intro-wrapper .left h1 {
@@ -135,6 +135,15 @@ nav {
 }
 
 .intro-wrapper .right {
+  min-height: 917px;
+  width: 783px;
+}
+
+.intro-wrapper .right .round {
+  border: 80px solid #ffffff;
+  height: 783px;
+  width: 783px;
+  border-radius: 70%;
 }
 
 /* ************************* INTRO END **************************/
